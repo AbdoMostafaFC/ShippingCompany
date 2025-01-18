@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\wwwroot\\images\\0f2c75aa-a5a6-4d09-9aa7-cc2a89472952.jpg",
+      "PackagePath": "staticwebassets\\images\\0f2c75aa-a5a6-4d09-9aa7-cc2a89472952.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\wwwroot\\images\\2c6aa85d-ccb5-4ef0-b40a-5168b5657269.jpg",
+      "PackagePath": "staticwebassets\\images\\2c6aa85d-ccb5-4ef0-b40a-5168b5657269.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\wwwroot\\images\\3bc10858-c694-48fe-a10d-7a90e2e01f74.jpg",
+      "PackagePath": "staticwebassets\\images\\3bc10858-c694-48fe-a10d-7a90e2e01f74.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\wwwroot\\images\\4300a026-a2e2-41af-96a9-9f6d517ed3aa.jpg",
+      "PackagePath": "staticwebassets\\images\\4300a026-a2e2-41af-96a9-9f6d517ed3aa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\wwwroot\\images\\6ccf9373-c47e-46e3-8481-c326fe7485c6.jpg",
+      "PackagePath": "staticwebassets\\images\\6ccf9373-c47e-46e3-8481-c326fe7485c6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\wwwroot\\images\\bcf60d76-11eb-47fd-9a35-5b6abd652e67.jpg",
+      "PackagePath": "staticwebassets\\images\\bcf60d76-11eb-47fd-9a35-5b6abd652e67.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\wwwroot\\images\\d0c3db26-5068-447f-9bc2-74aa27245407.jpg",
+      "PackagePath": "staticwebassets\\images\\d0c3db26-5068-447f-9bc2-74aa27245407.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ShippingCompany.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ShippingCompany.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ShippingCompany.props",
+      "PackagePath": "build\\ShippingCompany.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ShippingCompany.props",
+      "PackagePath": "buildMultiTargeting\\ShippingCompany.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ShippingCompany.props",
+      "PackagePath": "buildTransitive\\ShippingCompany.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

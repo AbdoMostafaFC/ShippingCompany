@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|c:\\users\\pc\\desktop\\shippping company\\shippingcompany\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|c:\\users\\pc\\desktop\\shippping company\\shippingcompany\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|solutionrelative:models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|c:\\users\\pc\\desktop\\shippping company\\shippingcompany\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|c:\\users\\pc\\desktop\\shippping company\\shippingcompany\\staticdataseeding\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|solutionrelative:staticdataseeding\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|c:\\users\\pc\\desktop\\shippping company\\shippingcompany\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|solutionrelative:dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|c:\\users\\pc\\desktop\\shippping company\\shippingcompany\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|c:\\users\\pc\\desktop\\shippping company\\shippingcompany\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|c:\\users\\pc\\desktop\\shippping company\\shippingcompany\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|c:\\users\\pc\\desktop\\shippping company\\shippingcompany\\staticdataseeding\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|solutionrelative:staticdataseeding\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|c:\\users\\pc\\desktop\\shippping company\\shippingcompany\\dtos\\updatedorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|solutionrelative:dtos\\updatedorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|c:\\users\\pc\\desktop\\shippping company\\shippingcompany\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|c:\\users\\pc\\desktop\\shippping company\\shippingcompany\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|c:\\users\\pc\\desktop\\shippping company\\shippingcompany\\models\\ordercode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|solutionrelative:models\\ordercode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|c:\\users\\pc\\desktop\\shippping company\\shippingcompany\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF402EAF-7FB1-4CC0-A849-CF976576E86A}|ShippingCompany.csproj|solutionrelative:dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\StaticDataSeeding\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "StaticDataSeeding\\DataSeeder.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\StaticDataSeeding\\DataSeeder.cs",
+              "RelativeToolTip": "StaticDataSeeding\\DataSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T10:46:16.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T10:40:20.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdatedOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\DTOs\\UpdatedOrderDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UpdatedOrderDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\DTOs\\UpdatedOrderDto.cs",
+              "RelativeToolTip": "DTOs\\UpdatedOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T09:21:26.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\DTOs\\OrderDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\OrderDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\DTOs\\OrderDto.cs",
+              "RelativeToolTip": "DTOs\\OrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T09:09:22.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-18T08:54:01.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-18T08:51:44.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAowIwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T08:11:03.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderCode.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\Models\\OrderCode.cs",
+              "RelativeDocumentMoniker": "Models\\OrderCode.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\Models\\OrderCode.cs",
+              "RelativeToolTip": "Models\\OrderCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T07:52:01.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\StaticDataSeeding\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "StaticDataSeeding\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\StaticDataSeeding\\OrderStatus.cs",
+              "RelativeToolTip": "StaticDataSeeding\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T07:47:58.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T07:29:58.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T15:18:22.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T14:54:53.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T14:50:49.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\Models\\DbContext.cs",
+              "RelativeDocumentMoniker": "Models\\DbContext.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\Shippping Company\\ShippingCompany\\Models\\DbContext.cs",
+              "RelativeToolTip": "Models\\DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T14:48:49.706Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
