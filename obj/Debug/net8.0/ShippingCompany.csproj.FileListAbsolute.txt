@@ -152,3 +152,4 @@ C:\Users\pc\Desktop\Shippping Company\ShippingCompany\obj\Debug\net8.0\refint\Sh
 C:\Users\pc\Desktop\Shippping Company\ShippingCompany\obj\Debug\net8.0\ShippingCompany.pdb
 C:\Users\pc\Desktop\Shippping Company\ShippingCompany\obj\Debug\net8.0\ShippingCompany.genruntimeconfig.cache
 C:\Users\pc\Desktop\Shippping Company\ShippingCompany\obj\Debug\net8.0\ref\ShippingCompany.dll
+C:\Users\pc\Desktop\Shippping Company\ShippingCompany\obj\Debug\net8.0\ShippingCompany.sourcelink.json

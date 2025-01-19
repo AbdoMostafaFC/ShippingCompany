@@ -152,6 +152,27 @@
   },
   {
     "ContainingType": "ShippingCompany.Controllers.OrderController",
+    "Method": "ConfirmOrder",
+    "RelativePath": "api/Order/ConfirmOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "OrderId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShippingCompany.Controllers.OrderController",
     "Method": "GenerateOtp",
     "RelativePath": "api/Order/GenerateOtp{orderId}",
     "HttpMethod": "POST",

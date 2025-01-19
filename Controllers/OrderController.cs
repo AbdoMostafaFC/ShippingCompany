@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ShippingCompany.DTOs;
 using ShippingCompany.Models;
+using ShippingCompany.StaticDataSeeding;
 
 namespace ShippingCompany.Controllers
 {
@@ -209,6 +210,25 @@ namespace ShippingCompany.Controllers
 
             
             return Ok(new { OrderId = orderId, OTP = otp });
+        }
+        [HttpPost("ConfirmOrder")]
+        public  IActionResult ConfirmOrder([FromForm]Confirm confirm)
+        {
+
+
+            var Order =_context.orders.FirstOrDefault(O=>O.Id==confirm.OrderId);
+
+            if(Order!=null)
+            {
+                var or=_context.ordersCode.Where(O=>O.OrderId == confirm.OrderId).FirstOrDefault();
+                if(or.Code==confirm.Code)
+                {
+                    Order.Status=OrderStatus.ConfirmedStatus;
+                }
+            }
+
+            return Ok("Confirmed");
+
         }
     }
 }
