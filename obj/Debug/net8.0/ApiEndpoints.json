@@ -40,22 +40,47 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "CustomerName",
+        "Name": "SenderName",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "Address",
+        "Name": "SenderCity",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "Phone",
+        "Name": "SenderPhone",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "UniqueNumber",
+        "Name": "SenderResidenceNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReciverName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReciverRegion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReciverCity",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReciverStreet",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReciverPhone",
         "Type": "System.String",
         "IsRequired": false
       },
@@ -91,22 +116,47 @@
         "IsRequired": false
       },
       {
-        "Name": "CustomerName",
+        "Name": "SenderName",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "Address",
+        "Name": "SenderCity",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "Phone",
+        "Name": "SenderPhone",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "UniqueNumber",
+        "Name": "SenderResidenceNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReciverName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReciverRegion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReciverCity",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReciverStreet",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReciverPhone",
         "Type": "System.String",
         "IsRequired": false
       },
@@ -129,6 +179,52 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShippingCompany.Controllers.OrderController",
+    "Method": "AddItem",
+    "RelativePath": "api/Order/AddItem{OrderId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "OrderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ItemName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "NumberItem",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Wieght",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "CostOfWieght",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "Note",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],

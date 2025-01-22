@@ -14,7 +14,9 @@ namespace ShippingCompany.Models
 
 
         public DbSet<Order> orders { get; set; }
+        public DbSet<OrderItem> orderItems { get; set; }
         public DbSet<OrderCode> ordersCode { get; set; }
+
 
 
     }

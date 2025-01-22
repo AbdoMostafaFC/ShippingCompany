@@ -47,46 +47,69 @@ namespace ShippingCompany.Controllers
             
             Order order = new Order();
             order.ProducImage = $"/images/{fileName}";
-            order.Address = orderDto.Address;
-            order.Phone = orderDto.Phone;
-            order.UniqueNumber = orderDto.UniqueNumber;
-            order.CustomerName = orderDto.CustomerName;
+            order.SenderName = orderDto.SenderName;
+            order.SenderPhone = orderDto.SenderPhone;
+            order.SenderResidenceNumber = orderDto.SenderResidenceNumber;
+            order.SenderCity = orderDto.SenderCity;
+            order.ReciverPhone = orderDto.ReciverPhone;
+            order.ReciverCity = orderDto.ReciverCity;
+            order.ReciverName = orderDto.ReciverName;
+            order.ReciverRegion = orderDto.ReciverRegion;
+            order.ReciverStreet = orderDto.ReciverStreet;
 
             
             _context.orders.Add(order);
             await _context.SaveChangesAsync();
 
-            return Ok(order);
+            return CreatedAtAction(nameof(GetOrder), new {id=order.Id},order);
         }
 
         [HttpGet]
         [Authorize(Roles ="SuperAdmin")]
         public async Task<IActionResult> GetAllOrders()
         {
-            var orders = await _context.orders.ToListAsync();
+            var orders = await _context.orders.Include(o=>o.Items).ToListAsync();
 
            
             var baseUrl = $"{Request.Scheme}://{Request.Host}{Request.PathBase}";
             var response = orders.Select(order => new
             {
                 order.Id,
-                order.CustomerName,
-                order.Address,
-                order.Phone,
-                order.UniqueNumber,
+                order.SenderName,
+                order.SenderPhone,
+                order.SenderCity,
+                order.SenderResidenceNumber,
+                order.ReciverName,
+                order.ReciverPhone,
+                order.ReciverCity,
+                order.ReciverRegion,
+                order.ReciverStreet,
+               Items= order.Items.Select(o=>new
+               {
+                   o.Id,
+                   o.ItemName,
+                   o.NumberItem,
+                   o.Wieght,
+                   o.CostOfWieght,
+                   o.Note,
+
+               }),
                 ProductImageUrl = string.IsNullOrEmpty(order.ProducImage)
                     ? null
                     : $"{baseUrl}/{order.ProducImage}"
             });
-
             return Ok(response);
         }
+                
+              
+
+        
         [Authorize(Roles = "SuperAdmin")]
 
         [HttpGet("ById")]
         public IActionResult GetOrder(int id)
         {
-            var order = _context.orders.SingleOrDefault(order => order.Id == id);
+            var order = _context.orders.Include(O=>O.Items).SingleOrDefault(order => order.Id == id);
             if (order == null)
             {
                 return NotFound();
@@ -95,9 +118,32 @@ namespace ShippingCompany.Controllers
             {
                 var baseUrl = $"{Request.Scheme}://{Request.Host}{Request.PathBase}";
 
-                order.ProducImage = $"{baseUrl}/{order.ProducImage}";
+             //   order.ProducImage = $"{baseUrl}/{order.ProducImage}";
+                var Response = new
+                {
+                    SenderPhone = order.SenderPhone,
+                    SenderCity = order.SenderCity,
+                    SenderResidenceNumber = order.SenderResidenceNumber,
+                    SenderName = order.SenderName,
+                    ReciverPhone = order.ReciverPhone,
+                    ReciverStreet = order.ReciverStreet,
+                    ReciverRegion = order.ReciverRegion,
+                    ReciverCity = order.ReciverCity,
+                    ReciverName = order.ReciverName,
+                    ProducImage = $"{baseUrl}/{order.ProducImage}",
+                    Items=order.Items.Select(o=>new
+                    {
+                        o.Id,
+                        o.ItemName,
+                        o.NumberItem,
+                        o.Wieght,
+                        o.CostOfWieght,
+                        o.Note,
+                    })
 
-                return Ok(order);
+                };
+
+                return Ok(Response);
             }
 
 
@@ -111,10 +157,15 @@ namespace ShippingCompany.Controllers
             var Order = _context.orders.FirstOrDefault(order => order.Id == id);
             if (Order == null || id == null)
                 return NotFound();
-            Order.UniqueNumber = updatedOrderDto.UniqueNumber;
-            Order.CustomerName = updatedOrderDto.CustomerName;
-            Order.Address = updatedOrderDto.Address;
-            Order.Phone = updatedOrderDto.Phone;
+            Order.SenderName = updatedOrderDto.SenderName;
+            Order.SenderPhone = updatedOrderDto.SenderPhone;
+            Order.SenderResidenceNumber = updatedOrderDto.SenderResidenceNumber;
+            Order.SenderCity = updatedOrderDto.SenderCity;
+            Order.ReciverName = updatedOrderDto.ReciverName;
+            Order.ReciverPhone = updatedOrderDto.ReciverPhone;
+            Order.ReciverCity = updatedOrderDto.ReciverCity;
+            Order.ReciverRegion = updatedOrderDto.ReciverRegion;
+            Order.ReciverStreet = updatedOrderDto.ReciverStreet;
             if (updatedOrderDto.ProductIamge == null || updatedOrderDto.ProductIamge.Length == 0)
             {
                 _context.orders.Update(Order);
@@ -228,6 +279,34 @@ namespace ShippingCompany.Controllers
             }
 
             return Ok("Confirmed");
+
+        }
+
+        [HttpPost("AddItem{OrderId:int}")]
+        public async Task<IActionResult> AddItem(int OrderId,[FromForm]OrderItemDTO orderItemDTO)
+        {
+
+            Order? Order = await _context.orders.FindAsync(OrderId);
+            if (Order == null) {
+
+                return NotFound("Order Not Found");
+
+            }
+            OrderItem orderItem = new OrderItem {
+                ItemName = orderItemDTO.ItemName,
+                OrderId = OrderId,
+                CostOfWieght = orderItemDTO.CostOfWieght,
+                Wieght = orderItemDTO.Wieght,
+                Note = orderItemDTO.Note,
+                NumberItem = orderItemDTO.NumberItem,
+            };
+
+
+            Order.Items.Add(orderItem);
+           await _context.orderItems.AddAsync(orderItem);
+          await  _context.SaveChangesAsync();
+
+            return Created();
 
         }
     }
